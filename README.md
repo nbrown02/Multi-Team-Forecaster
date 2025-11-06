@@ -1,1 +1,1 @@
-# Multi-Team-Forecaster
+# Multi Team Forecaster
