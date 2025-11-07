@@ -82,6 +82,10 @@ Then you can experiment with the different scenarios around scope (remaining ite
 
 GIF
 
+You can also check any teams where the input data (Throughput) is above the Upper Natural Process Limit (UNPL) which is the orange line. If above the line, this may mean you need to be careful with using it as inputs to the forecast:
+
+GIF
+
 You can also factor in one or many dependencies, for example if team X was dependent on team X, we would identify this in the slicer, with our forecast updating:
 
 GIF
