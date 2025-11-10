@@ -1,4 +1,4 @@
-# Multi Team Forecaster
+# Multi Team Forecaster for Jira and Azure DevOps
 ### What is it?
 This report enables you to forecast multi-team delivery of a particular initiative/project. For each team it runs a monte carlo simulation based on the number of remaining items and the confidence level chosen. It will also show how reliable the forecast input data is (via a Process Behaviour Chart) and allow you to factor in dependencies. It will then show the combined confidence/delivery date based on the inputs you have chosen.
 
