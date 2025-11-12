@@ -20,8 +20,8 @@ This report enables you to forecast multi-team delivery of a particular initiati
 * A minimum of two teams are needed for the report to work
   
 * Download the appropriate template file:
-  - [Azure DevOps / Azure DevOps Server / TFS version](x)
-  - [Jira version](x) 
+  - [Azure DevOps / Azure DevOps Server / TFS version](https://github.com/nbrown02/Multi-Team-Forecaster/raw/refs/heads/main/Multi-Team%20Forecaster%20(ADO).pbit)
+  - [Jira version](https://github.com/nbrown02/Multi-Team-Forecaster/raw/refs/heads/main/Multi-Team%20Forecaster%20(Jira).pbit) 
 * Create/save an access token 
   - [Personal Access Token (PAT) if using Azure DevOps (make sure you have 'Read' Analytics access)](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/use-personal-access-tokens-to-authenticate?view=azure-devops&tabs=Windows)
   - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
