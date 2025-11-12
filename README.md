@@ -78,7 +78,7 @@ Once the report has loaded, hide any teams you don't need (unless you need all 9
 
 ![GIf1](https://github.com/user-attachments/assets/4af20bc8-3cc7-4176-9444-e71f733b6d2e)
 
-Then you can experiment with the different scenarios around scope (remaining items) and confidence, seeing the impact in your overall date/confidence
+Then you can experiment with the different scenarios around scope (remaining items) and confidence, seeing the impact in your overall date/confidence:
 
 ![Gif2](https://github.com/user-attachments/assets/81324937-199a-4f78-b529-88d59bb47dfc)
 
@@ -91,5 +91,3 @@ You can also factor in one or many dependencies, for example if team X was depen
 ![GIF3](https://github.com/user-attachments/assets/9116eb13-049a-4089-acd5-767aacb2af38)
 
 Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
-## Using the report
-There are a few different ways you can use each chart.
