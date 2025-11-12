@@ -32,12 +32,8 @@ This report enables you to forecast multi-team delivery of a particular initiati
 * Select http/https (only choose http if your Azure DevOps Server is HTTP)
 * Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
 * Add your organization
-* For each respective team, enter the project name and team name, this may mean repeating the project name (which is fine)
-
-Don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then Microsoft-UK is the Organization Name, AzureDevOpsTeam is the Project name, Database is the team name.
-
-* The report covers up to 9 teams, only complete it for as many teams as you need
-
+* For each respective team, enter the project name and team name, this may mean repeating the project name (note: Don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then Microsoft-UK is the Organization Name, AzureDevOpsTeam is the Project name, Database is the team name)
+* The report covers up to 9 teams, only complete it for as many teams as you nee
 * It should then look something like this:
 
 IMAGE
@@ -55,11 +51,8 @@ IMAGE
 ### Connectivity (Jira Version)
 * Open the .pbit file in Power BI Desktop
 * Add your Jira URL 
-* For each respective team, enter the project key, 
-
-
-Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item.
-  
+* For each respective team, enter the project key (note: Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item)
+* The report covers up to 9 teams, only complete it for as many teams as you need
 * It should then look something like this:
 
 IMAGE
