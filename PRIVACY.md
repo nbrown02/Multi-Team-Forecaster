@@ -8,8 +8,8 @@ This template is a **static configuration file** and does **not** interact with 
 ## Data Collection and Usage
 
 The Multi Team Delivery Forecaster template does **not**:
-- Collect, store, or transmit any user, company, or Jira instance data.
-- Require or request access to Jira API, authentication tokens, or user credentials.
+- Collect, store, or transmit any user, company, or Jira/ADO instance data.
+- Request access to Jira/ADO user credentials.
 - Include any code that tracks usage or connects to external services.
 
 Since this template is purely a configuration file, there is **no personal data processing, tracking, or analytics** involved.
