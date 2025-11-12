@@ -1,21 +1,19 @@
-# Security Policy
+# Frequently Asked Questions
 
-## Overview
+### Why does it only cover up to 9 teams?
+I built up to 9 teams as that was the max I could fit in the report page with the visuals chosen. You could copy the existing approaches if you wanted to add more teams and feel free to submit a PR if you find a way to add more!
 
-The BufferFeverChart template for Jira is provided **free of charge** and is designed to help teams visualize their workflow metrics more effectively. This template is a **static configuration file** and does **not** include any code that executes on Jira instances or external systems.
+### How many simulations does it run?
+For performance reasons, it only does 1000 simulations. There will be slight differences from a model that uses 10,000 sims but only a few days.
 
-## Data Privacy and Security
+### Why does it seem to be slow/sluggish?
+Power BI isn't the best at performance of this type of thing. What I will say is it does cache when you have run forecasts so you can expect performance to speed up if you only make a few changes.
 
-- The template does **not** collect, transmit, or store any user or company data.
-- It does **not** require API access, authentication tokens, or any form of permissions within Jira.
-- There are **no** external dependencies, scripts, or integrations that could expose sensitive information.
+### How do we handle Jira teams in the same project?
+You would have to tweak the underlying queries,
 
-## Scope and Liability
+### How do I share this?
+x
 
-- This template is provided **as-is**, with **no warranties or guarantees** regarding its functionality or compatibility with all Jira environments.
-- Users are encouraged to review the template before applying it to their Jira instance.
-- The maintainers of this repository do **not** provide direct support but welcome community contributions and discussions.
-
-## Reporting Security Concerns
-
-If you identify any potential security issues related to this template, please open an issue in this repository or contact us via [GitHub Issues](https://github.com/nbrown02/BufferFeverChart/issues).
+### How do I get this on a mac?
+x
