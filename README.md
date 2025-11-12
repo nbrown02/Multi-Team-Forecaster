@@ -76,19 +76,19 @@ IMAGE
 ## Using the report
 Once the report has loaded, hide any teams you don't need (unless you need all 9) using the bookmarks:
 
-GIF
+![GIf1](https://github.com/user-attachments/assets/4af20bc8-3cc7-4176-9444-e71f733b6d2e)
 
 Then you can experiment with the different scenarios around scope (remaining items) and confidence, seeing the impact in your overall date/confidence
 
-GIF
+![Gif2](https://github.com/user-attachments/assets/81324937-199a-4f78-b529-88d59bb47dfc)
 
 You can also check any teams where the input data (Throughput) is above the Upper Natural Process Limit (UNPL) which is the orange line. If above the line, this may mean you need to be careful with using it as inputs to the forecast:
 
-GIF
+<img width="163" height="272" alt="image" src="https://github.com/user-attachments/assets/9d0883cd-fc3a-41fa-811d-65be727f0542" />
 
 You can also factor in one or many dependencies, for example if team X was dependent on team X, we would identify this in the slicer, with our forecast updating:
 
-GIF
+![GIF3](https://github.com/user-attachments/assets/9116eb13-049a-4089-acd5-767aacb2af38)
 
 Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
 ## Using the report
