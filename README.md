@@ -84,3 +84,5 @@ You can also factor in one or many dependencies, for example if team X was depen
 ![GIF3](https://github.com/user-attachments/assets/9116eb13-049a-4089-acd5-767aacb2af38)
 
 Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
+
+For anything else, check out the [FAQs](https://github.com/nbrown02/Multi-Team-Forecaster/blob/main/FAQs.md)
