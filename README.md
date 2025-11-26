@@ -9,6 +9,7 @@ This report enables you to forecast multi-team delivery of a particular initiati
 - Understand the impact of dependencies on overall delivery
 
 ### Prerequisites/assumptions
+* [Make sure you have the latest version of Power BI Desktop](https://aka.ms/pbiSingleInstaller)
 * For Jira users:
   - Each team has their own respective project (i.e. not shared) in the same Jira instance
   - Throughput is used at the story level (i.e. may contain stories, bugs, tasks if configured at this backlog level)
