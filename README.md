@@ -15,9 +15,11 @@ The report can also (optionally) provide you with the actual count of remaining 
 * For Jira users:
   - Each team has their own respective project (i.e. not shared) in the same Jira instance
   - Throughput is used at the story level (i.e. may contain stories, bugs, tasks if configured at this backlog level)
+  - Optionally, ensure you have the Epic/Feature IDs of items you want to know the remaining count for
 * For ADO users:
   - Each team has their own board (i.e. not shared) in the same ADO organisation
   - Throughput is stories/PBIs/bugs and any custom work item types (regardless of backlog level)
+  - Optionally, ensure you have the Epic/Feature IDs of items you want to know the remaining count for
 * Any teams being used have Throughput (completed items)
 * The report covers up to 9 teams, only complete it for as many teams as you need
 * A minimum of two teams are needed for the report to work
