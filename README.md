@@ -20,8 +20,7 @@ With all teams in the report, it will show the combined confidence/delivery date
   - Each team has their own board (i.e. not shared) in the same ADO organisation
   - Throughput is stories/PBIs/bugs and any custom work item types (regardless of backlog level)
   - Optionally, ensure you have the Epic/Feature IDs of items you want to know the remaining count for
-* Any teams being used have Throughput (completed items)
-* The report covers up to 9 teams, only complete it for as many teams as you need
+* All teams being used have Throughput (completed items) - the report covers up to 9 teams, only complete it for as many teams as you need
 * A minimum of two teams are needed for the report to work
   
 * Download the appropriate template file:
@@ -37,9 +36,9 @@ With all teams in the report, it will show the combined confidence/delivery date
 * Select http/https (only choose http if your Azure DevOps Server is HTTP)
 * Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
 * Add your organization
-* For each respective team, enter the project name and team name, this may mean repeating the project name (note: Don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then Microsoft-UK is the Organization Name, AzureDevOpsTeam is the Project name, Database is the team name)
+* For each respective team, enter the project name and team name, please note this may mean repeating the project name, however don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then *Microsoft-UK* is the Organization Name, *AzureDevOpsTeam* is the Project name, *Database* is the team name)
 * If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
-* The report covers up to 9 teams, only complete it for as many teams as you nee
+* The report covers up to 9 teams, only complete it for as many teams as you need
 * It should then look something like this:
 
 <img width="536" height="463" alt="image" src="https://github.com/user-attachments/assets/01e87706-25a3-4e67-a24f-9f4a880fb98f" />
@@ -74,15 +73,17 @@ With all teams in the report, it will show the combined confidence/delivery date
 * Then hit 'Connect' and wait for the data and charts to load!
 
 ## Using the report
-Once the report has loaded, hide any teams you don't need (unless you need all 9) using the bookmarks. Then you can experiment with the different scenarios around scope (remaining items):
+Once the report has loaded, hide any teams you don't need (unless you need all 9!) using the bookmarks. Then you can experiment with the different scenarios such as:
+
+Scope (Remaining items)
 
 ![ScopeChange](https://github.com/user-attachments/assets/440f2959-1637-4855-a121-1ec050b6c8fa)
 
-WIP limits:
+WIP limits
 
 ![WIPChange](https://github.com/user-attachments/assets/29b6fc45-4411-490c-83e6-603081e3b3d6)
 
-Confidence levels:
+Confidence levels
 
 ![PercentileChange](https://github.com/user-attachments/assets/5158c948-0238-4d3a-9298-1ed94546d49f)
 
@@ -90,9 +91,9 @@ As well as identifying dependencies between teams and the subsequent impact, for
 
 ![DependencyChange](https://github.com/user-attachments/assets/48a3580d-f866-418d-a25b-b65d3431efd9)
 
-Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
+Note: there is an assumption here that work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
 
-You can also check any teams where the input data (Throughput) is above the Upper Natural Process Limit (UNPL) which is the orange line. If above the line, this may mean you need to be careful with using it as inputs to the forecast:
+You can also validate teams' Throughput data is above the Upper Natural Process Limit (UNPL) which is the orange line. If above the line, this may mean you need to be careful with using it as inputs to the forecast:
 
 <img width="163" height="272" alt="image" src="https://github.com/user-attachments/assets/9d0883cd-fc3a-41fa-811d-65be727f0542" />
 
