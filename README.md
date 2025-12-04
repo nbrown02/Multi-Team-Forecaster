@@ -42,7 +42,7 @@ The report can also (optionally) provide you with the actual count of remaining 
 * The report covers up to 9 teams, only complete it for as many teams as you nee
 * It should then look something like this:
 
-IMAGE
+<img width="536" height="463" alt="image" src="https://github.com/user-attachments/assets/01e87706-25a3-4e67-a24f-9f4a880fb98f" />
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
@@ -62,7 +62,7 @@ IMAGE
 * The report covers up to 9 teams, only complete it for as many teams as you need
 * It should then look something like this:
 
-IMAGE
+![ADOLogin](https://github.com/user-attachments/assets/00c3e223-481e-46b3-81c0-225a6c96fb62)
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
