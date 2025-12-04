@@ -1,13 +1,13 @@
 # Multi Team Forecaster for Jira and Azure DevOps
 ### What is it?
-This report enables you to forecast multi-team delivery of a particular initiative/project. For each team it runs a monte carlo simulation based on the number of remaining items, Epic/Feature WIP and the confidence level chosen. 
-It will also show how reliable the forecast input data is (via a Process Behaviour Chart) and allow you to factor in dependencies. It will then show the combined confidence/delivery date based on the inputs you have chosen.
-The report can also (optionally) provide you with the actual count of remaining items for an Epic/Feature, so you can use this when deciding how many remaining items there are for a team.
+This report enables you to forecast multi-team delivery of a particular initiative/project. For each team it runs a monte carlo simulation based on the number of remaining items, Epic/Feature WIP and the confidence level chosen, as well as factoring in dependencies. For each team it will also show how reliable the forecast input data is (via a Process Behaviour Chart). The report can also (optionally) provide you with the actual count of remaining items for an Epic/Feature, so you can use this when deciding how many remaining items there are for a team.
+
+With all teams in the report, it will show the combined confidence/delivery date based on the inputs you have chosen.
 
 ### Why would you use it? 
-- Use it to improve your confidence around delivery dates for individual teams, as well as  overall initiatives/projects 
-- Better understand how ‘breliable' your inputs are from a forecasting perspective
-- Experiment with different 'what if' scenarios around scope and confidence 
+- Use it to improve your confidence around delivery dates for individual teams, as well as for overall initiatives/projects 
+- Better understand how ‘beliable' your inputs are from a forecasting perspective
+- Experiment with different 'what if' scenarios around scope, WIP and confidence levels
 - Understand the impact of dependencies on overall delivery
 
 ### Prerequisites/assumptions
