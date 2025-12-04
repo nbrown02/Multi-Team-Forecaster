@@ -32,12 +32,13 @@ The report can also (optionally) provide you with the actual count of remaining 
   - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
 * Then you're good to get started!
 
-### Connectivity (Azure DevOps Version)
+### Connectivity (Azure DevOps version)
 * Open the .pbit file in Power BI Desktop
 * Select http/https (only choose http if your Azure DevOps Server is HTTP)
 * Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
 * Add your organization
 * For each respective team, enter the project name and team name, this may mean repeating the project name (note: Don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then Microsoft-UK is the Organization Name, AzureDevOpsTeam is the Project name, Database is the team name)
+* If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
 * The report covers up to 9 teams, only complete it for as many teams as you nee
 * It should then look something like this:
 
@@ -57,6 +58,7 @@ IMAGE
 * Open the .pbit file in Power BI Desktop
 * Add your Jira URL 
 * For each respective team, enter the project key (note: Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item)
+* If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
 * The report covers up to 9 teams, only complete it for as many teams as you need
 * It should then look something like this:
 
@@ -72,22 +74,26 @@ IMAGE
 * Then hit 'Connect' and wait for the data and charts to load!
 
 ## Using the report
-Once the report has loaded, hide any teams you don't need (unless you need all 9) using the bookmarks:
+Once the report has loaded, hide any teams you don't need (unless you need all 9) using the bookmarks. Then you can experiment with the different scenarios around scope (remaining items):
 
-![GIf1](https://github.com/user-attachments/assets/4af20bc8-3cc7-4176-9444-e71f733b6d2e)
+![ScopeChange](https://github.com/user-attachments/assets/440f2959-1637-4855-a121-1ec050b6c8fa)
 
-Then you can experiment with the different scenarios around scope (remaining items) and confidence, seeing the impact in your overall date/confidence:
+WIP limits:
 
-![Gif2](https://github.com/user-attachments/assets/81324937-199a-4f78-b529-88d59bb47dfc)
+![WIPChange](https://github.com/user-attachments/assets/29b6fc45-4411-490c-83e6-603081e3b3d6)
+
+Confidence levels:
+
+![PercentileChange](https://github.com/user-attachments/assets/5158c948-0238-4d3a-9298-1ed94546d49f)
+
+As well as identifying dependencies between teams and the subsequent impact, for example if Team C became dependent on Team A:
+
+![DependencyChange](https://github.com/user-attachments/assets/48a3580d-f866-418d-a25b-b65d3431efd9)
+
+Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
 
 You can also check any teams where the input data (Throughput) is above the Upper Natural Process Limit (UNPL) which is the orange line. If above the line, this may mean you need to be careful with using it as inputs to the forecast:
 
 <img width="163" height="272" alt="image" src="https://github.com/user-attachments/assets/9d0883cd-fc3a-41fa-811d-65be727f0542" />
-
-You can also factor in one or many dependencies, for example if team X was dependent on team X, we would identify this in the slicer, with our forecast updating:
-
-![GIF3](https://github.com/user-attachments/assets/9116eb13-049a-4089-acd5-767aacb2af38)
-
-Note: there is an assumption here work starts as soon as the team you are depending on finishes...which may not always be the case in your organisation!
 
 For anything else, check out the [FAQs](https://github.com/nbrown02/Multi-Team-Forecaster/blob/main/FAQs.md)
