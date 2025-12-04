@@ -96,4 +96,5 @@ You can also check any teams where the input data (Throughput) is above the Uppe
 
 <img width="163" height="272" alt="image" src="https://github.com/user-attachments/assets/9d0883cd-fc3a-41fa-811d-65be727f0542" />
 
+
 For anything else, check out the [FAQs](https://github.com/nbrown02/Multi-Team-Forecaster/blob/main/FAQs.md)
