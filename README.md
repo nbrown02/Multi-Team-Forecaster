@@ -4,6 +4,8 @@ This report enables you to forecast multi-team delivery of a particular initiati
 
 With all teams in the report, it will show the combined confidence/delivery date based on the inputs you have chosen.
 
+There is a demo version using anonymised data available [here](https://app.powerbi.com/view?r=eyJrIjoiNGM0MjE1ZTEtY2RjNi00MDc3LWIxODgtZDJlMDIxMDQ0Y2JjIiwidCI6IjVjYzc5MjVjLWY4MjQtNDJlZC1iYTY0LTRmYzUxMDlhYzE5YyJ9) if you would like to give it a try :)
+
 ### Why would you use it? 
 - Use it to improve your confidence around delivery dates for individual teams, as well as for overall initiatives/projects 
 - Better understand how ‘beliable' your inputs are from a forecasting perspective
