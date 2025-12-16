@@ -33,28 +33,6 @@ There is a demo version using anonymised data available [here](https://app.power
   - [Jira API token if using Jira](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account/)
 * Then you're good to get started!
 
-### Connectivity (Azure DevOps version)
-* Open the .pbit file in Power BI Desktop
-* Select http/https (only choose http if your Azure DevOps Server is HTTP)
-* Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
-* Add your organization
-* For each respective team, enter the project name and team name, please note this may mean repeating the project name, however don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then *Microsoft-UK* is the Organization Name, *AzureDevOpsTeam* is the Project name, *Database* is the team name)
-* If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
-* The report covers up to 9 teams, only complete it for as many teams as you need
-* It should then look something like this:
-
-<img width="536" height="463" alt="image" src="https://github.com/user-attachments/assets/01e87706-25a3-4e67-a24f-9f4a880fb98f" />
-
-* Hit 'Load' 
-* You will be prompted for a login, choose Basic and enter:
-  - Your PAT you created in the Prerequisites in the password field
-  - Leave the username as blank or enter 'Dummy'
-  
-![alt text](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/media/authentication-7.png?view=azure-devops)
-
-* Once signed in hit 'Load' and wait for your report to load!
-
-
 ### Connectivity (Jira Version)
 * Open the .pbit file in Power BI Desktop
 * Add your Jira URL 
@@ -63,7 +41,7 @@ There is a demo version using anonymised data available [here](https://app.power
 * The report covers up to 9 teams, only complete it for as many teams as you need
 * It should then look something like this:
 
-![ADOLogin](https://github.com/user-attachments/assets/00c3e223-481e-46b3-81c0-225a6c96fb62)
+<img width="536" height="463" alt="image" src="https://github.com/user-attachments/assets/01e87706-25a3-4e67-a24f-9f4a880fb98f" />
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
@@ -73,6 +51,28 @@ There is a demo version using anonymised data available [here](https://app.power
 ![alt text](https://raw.githubusercontent.com/nbrown02/FlowViz-Jira/main/Screenshots/Login2.png)
 
 * Then hit 'Connect' and wait for the data and charts to load!
+
+### Connectivity (Azure DevOps version)
+* Open the .pbit file in Power BI Desktop
+* Select http/https (only choose http if your Azure DevOps Server is HTTP)
+* Add the Analytics / Azure DevOps Server URL - for Azure DevOps services enter 'analytics.dev.azure.com' / for Azure DevOps Server enter your server details
+* Add your organization
+* For each respective team, enter the project name and team name, please note this may mean repeating the project name, however don't confuse the team name with the project name, a common mistake. If the URL you use is "http://dev.azure.com/Microsoft-UK/AzureDevOpsTeam/Database", then *Microsoft-UK* is the Organization Name, *AzureDevOpsTeam* is the Project name, *Database* is the team name)
+* As all fields are mandatory, if you do not need any project/team name values then enter BLANK
+* If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
+* As all fields are mandatory, if you do not need any Epic/Feature values then enter 0
+* It should then look something like this:
+
+![ADOLogin](https://github.com/user-attachments/assets/b4a8a16f-bb3e-4049-9aa9-cab8a89c647d)
+
+* Hit 'Load' 
+* You will be prompted for a login, choose Basic and enter:
+  - Your PAT you created in the Prerequisites in the password field
+  - Leave the username as blank or enter 'Dummy'
+  
+![alt text](https://docs.microsoft.com/en-us/azure/devops/report/powerbi/media/authentication-7.png?view=azure-devops)
+
+* Once signed in hit 'Load' and wait for your report to load!
 
 ## Using the report
 Once the report has loaded, hide any teams you don't need (unless you need all 9!) using the bookmarks. Then you can experiment with the different scenarios such as:
