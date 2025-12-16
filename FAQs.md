@@ -14,5 +14,11 @@ Power BI isn't the best at performance of this type of thing. What I will say is
 ### How do I share this?
 To share this you should publish the file to your respective Power BI workspace/web service.
 
+### Can I try it out first?
+There is a web-based version with anonymised data available [here](https://app.powerbi.com/view?r=eyJrIjoiNGM0MjE1ZTEtY2RjNi00MDc3LWIxODgtZDJlMDIxMDQ0Y2JjIiwidCI6IjVjYzc5MjVjLWY4MjQtNDJlZC1iYTY0LTRmYzUxMDlhYzE5YyJ9) where you can see it in action, along with some scenarios to experiment with
+
+### Why do I have to add BLANK and 0 for the ADO version?
+The ADO version uses the OData ADO data source and this doesn't allow dynamic data sources in the Power BI service, meaning users wouldn't be able to schedule a refresh if published. This is a workaround for that so that users can share it (as well as it being a Power BI templated app).
+
 ### How do I get this on a mac?
-A mac version is coming soon (Q1 2026)
+Mac users will have to use the templated app which is available for Jira [here]() and ADO [here]()
