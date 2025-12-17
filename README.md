@@ -38,10 +38,10 @@ There is a demo version using anonymised data available [here](https://app.power
 * Add your Jira URL 
 * For each respective team, enter the project key (note: Don't confuse the project name with the project key, a common mistake! Your project key will be in the URL when viewing an item)
 * If you would like to know the remaining count for a particular Epic/Feature, add in the ID for this
-* The report covers up to 9 teams, only complete it for as many teams as you need
+* The report covers up to 9 teams, for any teams/Epic IDs you do not want/need, you must enter NULL
 * It should then look something like this:
-
-<img width="536" height="463" alt="image" src="https://github.com/user-attachments/assets/01e87706-25a3-4e67-a24f-9f4a880fb98f" />
+  
+![JiraLogin](https://github.com/user-attachments/assets/a239650a-5b2c-4c36-a365-503677f9ed1f)
 
 * Hit 'Load' 
 * You will be prompted for a login, choose Basic and enter:
